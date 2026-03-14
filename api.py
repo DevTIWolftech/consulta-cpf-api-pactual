@@ -3,8 +3,8 @@ from supabase import create_client
 
 app = FastAPI()
 
-url = "postgresql://postgres:[YOUR-PASSWORD]@db.ccytkddvqawcapcqrvvb.supabase.co:5432/postgres"
-key = "Q1NAFcD7R3g9vLiB"
+url = "https://ccytkddvqawcapcqrvvb.supabase.co"
+key = "sb_publishable_8flZJ6jvoiAu5nLFUwsLHw_xB_JaIOL"
 
 supabase = create_client(url, key)
 
